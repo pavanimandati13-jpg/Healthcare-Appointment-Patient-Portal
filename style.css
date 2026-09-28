@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero */
+
+.hero-section {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Sections */
+
+.section-padding {
+    padding: 60px 20px;
+}
+
+
+/* Cards */
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+    padding: 18px;
+}
+
+
+/* Form */
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.4);
+}
+
+
+/* Buttons */
+
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+/* Appointment Table */
+
+.table {
+    vertical-align: middle;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+
+/* Services */
+
+.service-card {
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Technologies */
+
+.tech-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.tech-box h4 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+
+/* Health Information */
+
+.info-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info-card strong {
+    color: #0d6efd;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 30px;
+    }
+
+    .hero-section p {
+        font-size: 17px;
+    }
+
+    .section-padding {
+        padding: 40px 15px;
+    }
+
+}
